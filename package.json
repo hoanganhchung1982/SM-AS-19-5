@@ -1,33 +1,24 @@
 {
-  "name": "SMA-AS-19-5",
+  "name": "SM-AS-19-5",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "lint": "eslint"
+    "start": "next start"
   },
-"dependencies": {
-  "next": "14.2.3",
-  "react": "18.3.1",
-  "react-dom": "18.3.1",
-  "@google/generativeai": "0.21.0"
-},
+  "dependencies": {
+    "next": "15.1.0",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "@google/generativeai": "0.21.0"
+  },
   "devDependencies": {
-    "@tailwindcss/postcss": "^4",
-    "@types/node": "^20",
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
-    "babel-plugin-react-compiler": "1.0.0",
-    "eslint": "^9",
-    "eslint-config-next": "16.1.1",
-    "tailwindcss": "^4",
-    "typescript": "^5"
+    "typescript": "5.7.2",
+    "@types/node": "20.17.10",
+    "@types/react": "19.0.1",
+    "@types/react-dom": "19.0.1",
+    "postcss": "8.4.49",
+    "tailwindcss": "3.4.16"
   }
 }
-
-
-
-
-
